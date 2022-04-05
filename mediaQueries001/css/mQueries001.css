@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #262626;
+}
+nav {
+    background-color: #2f948d;
+}
+nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    padding: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li:hover {
+    background-color: #015d56;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }*/
+@media only screen and (max-width: 767px){
+    nav ul {
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
